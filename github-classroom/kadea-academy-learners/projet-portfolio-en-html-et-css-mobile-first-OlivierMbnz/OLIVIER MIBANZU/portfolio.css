@@ -1,0 +1,125 @@
+#en-tête {
+    display: flex;
+    flex-direction: row;
+    gap: 700px;
+}
+
+#items {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    gap: 0 23px;
+}
+
+.items_hr{
+    height: 18px;
+    align-content: center;
+}
+
+#body {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 90px;
+    width: max-content;
+    align-items: flex-end;
+}
+
+#je_suis {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    width: 430px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 10px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+#nicole_rider {
+    font-weight: bold;
+}
+
+#img_div {
+    display: flex;
+    border-radius: 50%;
+    clip-path: ellipse(50% 50%);
+    height: 500px;
+    width: 500px;
+}
+
+#Bouttons_3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    
+}
+
+#cv {
+    border-radius: 50%;
+    background-color: orange;
+    text-align: center;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    align-content: center;
+    border: black solid 2px;
+}
+
+#projets {
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    align-content: center;
+    border: black solid 2px;
+}
+
+#contact {
+    border-radius: 50%;
+    background-color: rgb(117, 233, 233);
+    text-align: center;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    align-content: center;
+    border: black solid 2px;
+    justify-content: center;
+
+}
+
+#self_introduicing {
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    gap: 0 150px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 80px;
+}
+
+.fav_icons{
+    height: 20px;
+    width: 20px;
+}
